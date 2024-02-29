@@ -19,4 +19,6 @@
 * `/api/users/2` or give any id used in place of 2 to get the particular id details.
 * Your api is successfully deployed in `render.com`
 
+* Go to `POSTMAN` and test your api.
+
 
