@@ -13,7 +13,7 @@
 * Click on Create Web Service
 * After the deployment, Click on the url obtained.
 
-## API URL - https://publish-api-using-render.onrender.com
+## API URL - https://publish-api-using-render-2.onrender.com/api/users
 
 * Open this link in the browser and add an extension `/api/users` to get the users data.
 * `/api/users/2` or give any id used in place of 2 to get the particular id details.
