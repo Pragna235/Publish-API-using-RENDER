@@ -15,10 +15,13 @@
 
 ## API URL - https://publish-api-using-render-2.onrender.com/api/users
 
+## Live Project Page - https://pragna235.github.io/Publish-API-using-RENDER/
+
 * Open this link in the browser and add an extension `/api/users` to get the users data.
 * `/api/users/2` or give any id used in place of 2 to get the particular id details.
 * Your api is successfully deployed in `render.com`
 
 * Go to `POSTMAN` and test your api.
+
 
 
