@@ -23,7 +23,7 @@
 
 * Go to `POSTMAN` and test your api.
 
-## API_URL - https://publish-api-using-render.onrender.com
+## API_URL - https://publish-api-using-render.onrender.com   (node index2) (starting command)
 ## API_URL - https://publish-api-using-render.onrender.com/api/users/table  (index2.js)
 
 
