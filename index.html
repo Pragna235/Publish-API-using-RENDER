@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,8 @@
             width: 100%;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
@@ -21,6 +23,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h2>API Data Display</h2>
@@ -28,8 +31,9 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Title</th>
-                <th>Completed</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
             </tr>
         </thead>
         <tbody>
@@ -57,10 +61,14 @@
                         const cell1 = row.insertCell(0);
                         const cell2 = row.insertCell(1);
                         const cell3 = row.insertCell(2);
+                        const cell4 = row.insertCell(3);
 
                         cell1.textContent = item.id;
                         cell2.textContent = item.name;
                         cell3.textContent = item.email;
+                        
+                        // Check if 'status' field exists before accessing it
+                        cell4.textContent = item.status || 'N/A';
                     });
                 } else {
                     console.error('Empty or invalid data received from the API.');
@@ -70,4 +78,5 @@
     </script>
 
 </body>
+
 </html>
