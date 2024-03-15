@@ -22,9 +22,20 @@
 * Your api is successfully deployed in `render.com`
 
 * Go to `POSTMAN` and test your api.
-
+* 
 ## API_URL - https://publish-api-using-render.onrender.com   (node index2) (starting command)
 ## API_URL - https://publish-api-using-render.onrender.com/api/users/table  (index2.js)
+
+----------------------------------------------------------------------------------------------------------
+
+## Render the API using CMD without POSTMAN
+### GET Operation
+*     curl https://publish-api-using-render-2.onrender.com/api/users
+### POST Operation
+*     curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Pragna\", \"email\":\"yp23@gmail.com\", \"status\":\"owner\"}" https://publish-api-using-render-2.onrender.com/api/users
+### PUT Operation
+*     curl -X PUT -H "Content-Type: application/json" -d "{\"name\": \"Pinky\",\"email\": \"hjkhjk@g.com\"}" https://publish-api-using-render-2.onrender.com/api/users/1
+
 
 
 
